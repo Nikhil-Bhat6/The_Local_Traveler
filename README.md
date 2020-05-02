@@ -1,1 +1,1 @@
-Panacea-Soft Android Init
+The Local Traveler
