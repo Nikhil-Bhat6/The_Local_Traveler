@@ -1,0 +1,663 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="loadingMore"
+            type="boolean" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/bestThingsTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:animateLayoutChanges="true"
+                android:text="@string/dashboard_best_things"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text__primary_dark"
+                android:textSize="@dimen/font_h7_size"
+                android:textStyle="bold"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toStartOf="@+id/bestThingsViewAllTextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/searchBoxEditText" />
+
+            <TextView
+                android:id="@+id/newCitiesTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:animateLayoutChanges="true"
+                android:text="@string/dashboard_new_cities"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text__primary_dark"
+                android:textSize="@dimen/font_h7_size"
+                android:textStyle="bold"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toStartOf="@+id/newCitiesViewAllTextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/featuredCityCardViewBig" />
+
+            <TextView
+                android:id="@+id/bestThingsViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/space_20"
+                android:animateLayoutChanges="true"
+                android:gravity="center"
+                android:text="@string/menu__home_category_view_All_un"
+                android:textAllCaps="true"
+                android:textColor="@color/global__primary"
+                android:textSize="@dimen/font_body_s_size"
+                android:visibility="visible"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/bestThingsTitleTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bestThingsTitleTextView"
+                tools:text="@string/menu__home_category_view_All_un" />
+
+            <TextView
+                android:id="@+id/newCitiesViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/space_20"
+                android:animateLayoutChanges="true"
+                android:gravity="center"
+                android:text="@string/menu__home_category_view_All_un"
+                android:textAllCaps="true"
+                android:textColor="@color/global__primary"
+                android:textSize="@dimen/font_body_s_size"
+                android:visibility="visible"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/newCitiesTitleTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/newCitiesTitleTextView"
+                tools:text="@string/menu__home_category_view_All_un" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/featuredItemRecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bestThingsDescTextView"
+                app:spanCount="1" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/newCitiesRecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newCitiesDescTextView" />
+
+            <ProgressBar
+                android:id="@+id/load_more_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:indeterminate="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/promoListRecyclerView"
+                app:visibleGone="@{loadingMore}" />
+
+            <TextView
+                android:id="@+id/popularCitiesTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:animateLayoutChanges="true"
+                android:text="@string/dashboard_popular_cities"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text__primary_dark"
+                android:textSize="@dimen/font_h7_size"
+                android:textStyle="bold"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toStartOf="@+id/popularCitiesViewAllTextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/featuredItemRecyclerView" />
+
+            <TextView
+                android:id="@+id/popularCitiesViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/space_20"
+                android:animateLayoutChanges="true"
+                android:gravity="center"
+                android:text="@string/menu__home_category_view_All_un"
+                android:textAllCaps="true"
+                android:textColor="@color/global__primary"
+                android:textSize="@dimen/font_body_s_size"
+                android:visibility="visible"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/popularCitiesTitleTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/popularCitiesTitleTextView"
+                tools:text="@string/menu__home_category_view_All_un" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                app:adSize="SMART_BANNER"
+                app:adUnitId="@string/admob_banner_ads_key"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/popularCitiesRecyclerView" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/featuredCityCardViewBig"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:cardElevation="0sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/adView">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_orange">
+
+                    <TextView
+                        android:id="@+id/featuredViewAllTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginEnd="@dimen/space_20"
+                        android:animateLayoutChanges="true"
+                        android:gravity="center"
+                        android:text="@string/menu__home_category_view_All_un"
+                        android:textAllCaps="true"
+                        android:textColor="@color/global__primary"
+                        android:textSize="@dimen/font_body_s_size"
+                        android:visibility="visible"
+                        app:font='@{"normal"}'
+                        app:layout_constraintBottom_toBottomOf="@+id/featuredTitleTextView"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/featuredTitleTextView"
+                        tools:text="@string/menu__home_category_view_All_un" />
+
+                    <TextView
+                        android:id="@+id/featuredTitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="8dp"
+                        android:animateLayoutChanges="true"
+                        android:text="@string/dashboard_best_cities"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/text__primary_dark"
+                        android:textSize="@dimen/font_h7_size"
+                        android:textStyle="bold"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toStartOf="@+id/featuredViewAllTextView"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/featuredCityRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="24dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        android:paddingStart="14dp"
+                        android:paddingEnd="0dp"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/featuredTextView" />
+
+                    <TextView
+                        android:id="@+id/featuredTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="@string/dashboard_best_cities_desc"
+                        android:textAlignment="viewStart"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/featuredTitleTextView" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/blogTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:animateLayoutChanges="true"
+                android:text="@string/dashboard_blog"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text__primary_dark"
+                android:textSize="@dimen/font_h7_size"
+                android:textStyle="bold"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toStartOf="@+id/blogViewAllTextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newCitiesRecyclerView" />
+
+            <TextView
+                android:id="@+id/blogViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/space_20"
+                android:animateLayoutChanges="true"
+                android:gravity="center"
+                android:text="@string/menu__home_category_view_All_un"
+                android:textAllCaps="true"
+                android:textColor="@color/global__primary"
+                android:textSize="@dimen/font_body_s_size"
+                android:visibility="visible"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/blogTitleTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/blogTitleTextView"
+                tools:text="@string/menu__home_category_view_All_un" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/popularCitiesRecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/popularCitiesDescTextView"
+                app:spanCount="2" />
+
+            <ImageView
+                android:id="@+id/headerImageView"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/city_dashboard_img" />
+
+            <EditText
+                android:id="@+id/searchBoxEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/custom_progress_bar_horizontal"
+                android:ems="10"
+                app:font='@{"normal"}'
+                android:hint="@string/dashboard_keyword"
+                android:inputType="textPersonName"
+                android:paddingStart="@dimen/space_8"
+                android:paddingTop="@dimen/space_8"
+                android:paddingEnd="@dimen/space_8"
+                android:paddingBottom="@dimen/space_8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/headerImageView" />
+
+            <TextView
+                android:id="@+id/bestThingsDescTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/dashboard_best_things_desc"
+                android:textAlignment="viewStart"
+                android:textSize="14sp"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bestThingsTitleTextView" />
+
+            <TextView
+                android:id="@+id/popularCitiesDescTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/dashboard_popular_cities_desc"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/popularCitiesTitleTextView" />
+
+            <TextView
+                android:id="@+id/newCitiesDescTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/dashboard_new_cities_desc"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newCitiesTitleTextView" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/blogViewPager"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="8dp"
+                android:scrollbarDefaultDelayBeforeFade="400"
+                android:scrollbarFadeDuration="250"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/blogTitleTextView" />
+
+            <LinearLayout
+                android:id="@+id/pagerIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/space_4"
+                android:paddingTop="@dimen/space_4"
+                android:paddingEnd="@dimen/space_4"
+                android:paddingBottom="@dimen/space_4"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/blogViewPager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                app:adSize="SMART_BANNER"
+                app:adUnitId="@string/admob_banner_ads_key"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/blogViewPager" />
+
+            <TextView
+                android:id="@+id/popularPlacesTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/dashboard_popular_places"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text__primary_dark"
+                android:textSize="@dimen/font_h7_size"
+                android:textStyle="bold"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toStartOf="@+id/popularPlacesViewAllTextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/adView2" />
+
+            <TextView
+                android:id="@+id/popularPlacesViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/space_20"
+                android:animateLayoutChanges="true"
+                android:gravity="center"
+                android:text="@string/menu__home_category_view_All_un"
+                android:textAllCaps="true"
+                android:textColor="@color/global__primary"
+                android:textSize="@dimen/font_body_s_size"
+                android:visibility="visible"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/popularPlacesTitleTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/popularPlacesTitleTextView"
+                tools:text="@string/menu__home_category_view_All_un" />
+
+            <TextView
+                android:id="@+id/newPlacesViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="20dp"
+                android:animateLayoutChanges="true"
+                android:gravity="center"
+                android:text="@string/menu__home_category_view_All_un"
+                android:textAllCaps="true"
+                android:textColor="@color/global__primary"
+                android:textSize="@dimen/font_body_s_size"
+                android:visibility="visible"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/newPlacesTitleTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/newPlacesTitleTextView"
+                tools:text="@string/menu__home_category_view_All_un" />
+
+            <TextView
+                android:id="@+id/promoListViewAllTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginEnd="16dp"
+                android:animateLayoutChanges="true"
+                android:gravity="center"
+                android:text="@string/menu__home_category_view_All_un"
+                android:textAllCaps="true"
+                android:textColor="@color/global__primary"
+                android:textSize="@dimen/font_body_s_size"
+                android:visibility="visible"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/promoListTitleTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/promoListTitleTextView"
+                tools:text="@string/menu__home_category_view_All_un" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/popularPlacesRecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/popularPlacesDescTextView" />
+
+            <TextView
+                android:id="@+id/popularPlacesDescTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/dashboard_popular_places_desc"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/popularPlacesTitleTextView" />
+
+            <TextView
+                android:id="@+id/newPlacesTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/dashboard_new_places"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text__primary_dark"
+                android:textSize="@dimen/font_h7_size"
+                android:textStyle="bold"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toStartOf="@+id/newPlacesViewAllTextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/popularPlacesRecyclerView" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/newPlacesRecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newPlacesDescTextView" />
+
+            <TextView
+                android:id="@+id/newPlacesDescTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/dashboard_new_places_desc"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newPlacesTitleTextView" />
+
+            <TextView
+                android:id="@+id/promoListTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/dashboard_promo_list"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text__primary_dark"
+                android:textSize="@dimen/font_h7_size"
+                android:textStyle="bold"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toStartOf="@+id/promoListViewAllTextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/newPlacesRecyclerView" />
+
+            <TextView
+                android:id="@+id/promoListDescTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/dashboard_promo_list_desc"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/promoListTitleTextView" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/promoListRecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toTopOf="@+id/load_more_bar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/promoListDescTextView" />
+
+            <ImageButton
+                android:id="@+id/searchImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/md_white_1000"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintBottom_toBottomOf="@+id/searchBoxEditText"
+                app:layout_constraintEnd_toEndOf="@+id/searchBoxEditText"
+                app:layout_constraintTop_toTopOf="@+id/searchBoxEditText"
+                app:srcCompat="@drawable/baseline_search_grey_24" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

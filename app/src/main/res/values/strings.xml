@@ -1,0 +1,633 @@
+<resources>
+
+    <!--===============-->
+    <!-- Key to update -->
+    <!--===============-->
+
+    <string name="facebook_app_id" translatable="false">2027882067320201</string>
+    <!--<string name="facebook_app_id" translatable="false">0000000000000000</string>-->
+
+    <string name="fb_login_protocol_scheme" translatable="false">fb2027882067320201</string>
+    <!--<string name="fb_login_protocol_scheme" translatable="false">fb0000000000000000</string>-->
+
+    <string name="stripe_publish_key" translatable="false">pk_test_RjJFXdLkbesQpjm6T2xPddmp</string>
+    <!--<string name="stripe_publish_key" translatable="false">pk_0000_000000000000000000000000</string>-->
+
+    <string name="admob_banner_ads_key" translatable="false">ca-app-pub-8907881762519005/9824832324</string>
+    <!--<string name="admob_banner_ads_key" translatable="false">ca-app-pub-0000000000000000/0000000000</string>-->
+
+    <string name="google_map_api_key" translatable="false">AIzaSyCkBR-5jXkwZplhBgPLyKJBitIEKChBY2s</string>
+    <!--<string name="google_map_api_key" translatable="false">AI000000000000000000_000000000000000000</string>-->
+
+    <string name="adview_publisher_key" translatable="false">pub-8907881762519005</string>
+    <!--<string name="adview_publisher_key" translatable="false">pub-0000000000000000</string>-->
+
+    <!--===============-->
+    <!-- Key to update -->
+    <!--===============-->
+
+    <string name="floating_button_behaviour" translatable="false">com.panaceasoft.pscity.utils.ScrollAwareFABBehavior</string>
+
+    <!--History -->
+    <string name="history__title">History</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+    <!-- Favourite -->
+    <string name="favourite__title">Favourites</string>
+
+    <!-- FB Register -->
+    <string name="fb_register__welcome">Welcome from %1$s </string>
+    <string name="fb_register__desc">Please login to use all features of application.</string>
+
+    <!-- Gallery -->
+    <string name="gallery__title">Gallery</string>
+    <string name="gallery_image__gallery">Image Gallery</string>
+    <string name="gallery_img__desc">Image Description</string>
+
+    <!-- Image Related -->
+    <string name="image_default__image">Default Image</string>
+
+    <!-- App General -->
+    <string name="app__app_name">TLT</string>
+    <string name="app__ok">OK</string>
+    <string name="app__cancel">Cancel</string>
+    <string name="app__drawer_open">Drawer Open</string>
+    <string name="app__drawer_close">Drawer Close</string>
+
+    <string name="menu__fb_login">Facebook Login</string>
+    <string name="menu__comment_list">Comment List</string>
+    <string name="menu__notification_list">Notification List</string>
+
+    <!-- Register -->
+    <string name="register__user_name">User Name</string>
+    <string name="register__email">Email</string>
+    <string name="register__password">Password</string>
+    <string name="register__back_to_login">Already member ? Login</string>
+    <string name="register__register">Register</string>
+    <string name="register__new_account">Register New User Account</string>
+    <string name="register__check_option">I agree to this privacy policy?</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password__title">Forgot Password</string>
+    <string name="forgot_password__email">Email</string>
+    <string name="forgot_password__back_to_login">Already a member ? Login</string>
+    <string name="forgot_password__password_recovery">Recover Password</string>
+    <string name="forgot_password__save">Save</string>
+    <string name="forgot_password__send">Send</string>
+
+    <!-- Password Change -->
+    <string name="password_change__password">Password</string>
+    <string name="password_change__save">Save</string>
+    <string name="password_change__confirm_password">Confirm Password</string>
+    <string name="password_change__password_change">Password Change</string>
+
+    <!-- Login -->
+    <string name="login__email">Email</string>
+    <string name="login__password">Password</string>
+    <string name="login__not_a_member_join_now">New here? Sign Up</string>
+    <string name="login__forgot_your_password">Forgot password ?</string>
+    <string name="login__login">Sign In</string>
+    <string name="login__welcome_title">Welcome To The Local Traveler</string>
+    <string name="login__choice_text">OR</string>
+    <string name="login__with_phone">Sign In with Phone</string>
+    <string name="login__with_google">Sign In with Google</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us__name">Contact Name</string>
+    <string name="contact_us__email">Contact Email</string>
+    <string name="contact_us__message">Contact Message</string>
+    <string name="contact_us__phone">Contact Phone</string>
+    <string name="contact_us__submit">Submit</string>
+
+    <!-- Notification Setting -->
+    <string name="notification_setting__on_off">Notification Setting ( On/Off )</string>
+    <string name="notification_setting__latest_message_from_system">Latest Message From System</string>
+    <string name="notification__notification">Notification!</string>
+    <string name="notification__title">Notification</string>
+    <string name="notification_setting__title">Notification Setting</string>
+    <string name="notification_detail__title">Notification Detail</string>
+    <string name="notification_alert">Alert</string>
+
+    <!-- Language -->
+    <string name="language__english">English</string>
+    <string name="language__arabic">Arabic</string>
+    <string name="language__spanish">Spanish</string>
+    <string name="language__language_change">Are you sure you want to change to %1$s?</string>
+    <string name="language__title">Language</string>
+
+    <!-- Comment -->
+    <string name="comment__replies">-- %1$s replies</string>
+    <string name="comment__dates">-- %1$s </string>
+    <string name="comment__title">Comment List</string>
+    <string name="comment__detail_title">Comment Replies</string>
+    <string name="comment__empty_comment">No Comments</string>
+    <string name="comment__comment">Comment</string>
+
+    <!-- Rating -->
+    <string name="rating__list">Rating List</string>
+    <string name="rating__write_review">Write Review</string>
+    <string name="rating__total_count">%1$s Customer Reviews</string>
+    <string name="rating__total_value">%1$s out of 5 stars</string>
+    <string name="rating__total_count_n_value">%1$s out of 5 stars (%2$s Reviews)</string>
+    <string name="rating__count">%1$s star</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__in_stock">In Stock</string>
+    <string name="rating__title">Title</string>
+    <string name="rating__message">Message</string>
+    <string name="rating__user_rating">User Rating Entry !</string>
+    <string name="rating__your_rating">Your Rating</string>
+    <string name="rating__five_star">5 stars</string>
+    <string name="rating__four_star">4 stars</string>
+    <string name="rating__three_star">3 stars</string>
+    <string name="rating__two_star">2 stars</string>
+    <string name="rating__one_star">1 star</string>
+    <string name="rating__rating_range">Rating Range</string>
+    <string name="rating__one">1 and higher</string>
+    <string name="rating__two">2 and higher</string>
+    <string name="rating__three">3 and higher</string>
+    <string name="rating__four">4 and higher</string>
+    <string name="rating__five">5 \n</string>
+    <string name="rating__comar">","</string>
+    <string name="rating_value">rating</string>
+    <string name="rating_city_value">rating</string>
+
+    <!--Button Sheet Dialog Messages-->
+    <string name="dialog__title_m_mun">Sorting</string>
+    <string name="popular__m_mun">Popular</string>
+    <string name="recent__m_mun">Latest</string>
+    <string name="char_asc__m_mun">A -> Z</string>
+    <string name="char_desc__m_mun">Z -> A</string>
+
+    <!-- edit setting -->
+    <string name="edit_setting__notification_setting">Notification Settings</string>
+    <string name="edit_setting__edit_profile">Edit Profile</string>
+    <string name="edit_setting__logout">Logout</string>
+    <string name="edit_setting__logout_question">Are you sure want to logout ? </string>
+    <string name="edit_setting__terms_and_conditions">Terms and Conditions</string>
+    <string name="edit_setting__app_info">App Info</string>
+    <string name="edit_setting__title">Setting</string>
+
+    <!-- Message -->
+    <string name="message__register_success">Successfully Registered.</string>
+    <string name="message__loading">Loading….</string>
+    <string name="message__please_wait">Please wait…</string>
+    <string name="message__welcome">Welcome to The Local Traveler</string>
+    <string name="message__want_to_quit">Do you really want to quit?</string>
+    <string name="message__ok_close">OK</string>
+    <string name="message__cancel_close">Cancel</string>
+
+    <!-- Search -->
+    <string name="search__notSet">Not Set</string>
+    <string name="search__by_name">Product Name</string>
+    <string name="search__by_type">Product Type</string>
+    <string name="search__by_sub_type">Sub Product Type</string>
+    <string name="search__by_price">Price</string>
+    <string name="search__lowest_price">Lowest Price</string>
+    <string name="search__highest_price">Highest Price</string>
+    <string name="search__special_check">Special Check</string>
+    <string name="search__feature">Featured Products</string>
+    <string name="search__discount_price">Discount Prices</string>
+    <string name="search__search">Search</string>
+    <string name="search__title_activity_font_select">FontSelectActivity</string>
+
+    <!--Special_Filtering-->
+    <string name="sf__notSet">Not Set</string>
+    <string name="sf__notSet_zg">Not Set</string>
+    <string name="sf__ByItemType">Set Item Name</string>
+    <string name="sf__ByPrice">Set Price</string>
+    <string name="sf__LowestPrice">Lowest Price</string>
+    <string name="sf__HighestPrice">Highest Price</string>
+    <string name="sf__AdvanceFiltering">Advanced Filtering</string>
+    <string name="sf__Feature">Feature Items</string>
+    <string name="sf__Discount">Discount Items</string>
+    <string name="sf__Filter_Button">Filter</string>
+    <string name="typefilter">Filtered By Product type</string>
+
+    <!-- Error Message -->
+    <string name="error_message__select_location">Please select location.!</string>
+    <string name="error_message__login_first">Please login first!</string>
+    <string name="error_message__rating">Please fill completely for rating.</string>
+    <string name="error_message__youtube_not_valid">YouTube is not valid.</string>
+    <string name="error_message__blank_email">Please input Email.</string>
+    <string name="error_message__choose_category">Choose a Category First</string>
+    <string name="error_message__insert_value_search">Insert a value to search</string>
+    <string name="error_message__order_fail">Process Failed with unknown error! Please try again</string>
+    <string name="error_message__blank_contact_message">Please input Contact Message.</string>
+    <string name="error_message__blank_password">Please enter the password.</string>
+    <string name="error_message__blank_name">Please input name.</string>
+    <string name="error_message__blank_keyword">Please input search keyword.</string>
+    <string name="error_message__password_not_equal">Passwords do not match!</string>
+    <string name="error_message__no_internet">No internet connection.</string>
+    <string name="error_message__email_exists">Email Already Exists</string>
+    <string name="error_message__image_cannot_upload">Image cannot be Uploaded</string>
+    <string name="error_message__item_cannot_upload">Item cannot be Uploaded</string>
+    <string name="error_message__code_not_verify">Your code is not verified.</string>
+    <string name="error_message__to_check_agreement">You need to agree to privacy policy.</string>
+
+    <!--FeatureUIButton-->
+    <string name="Feature_UI_Type__Button">Interest</string>
+    <string name="Feature_UI_Tune__Button">Filter &amp; Sort</string>
+    <string name="Feature_UI_Sort__Button">Map Filter</string>
+    <string name="Feature_UI__item_list_no_item_title">No Data</string>
+    <string name="Feature_UI__item_list_no_item_desc">No results! Please try to adjust the filter.</string>
+    <string name="Feature_UI__item_list_loading_item_title">We are loading</string>
+    <string name="Feature_UI__search_alert_cat_title">Choose Category</string>
+    <string name="Feature_UI__search_alert_sub_cat_title">Choose Sub Category</string>
+
+    <!-- About Us -->
+    <string name="about_us__phone">Phone</string>
+    <string name="about_us__facebook">Facebook</string>
+    <string name="about_us__gplus">Google Plus</string>
+    <string name="about_us__instagram">Instagram</string>
+    <string name="about_us__youtube">Youtube</string>
+    <string name="about_us__pinterest">Pinterest</string>
+    <string name="about_us__twitter">Twitter</string>
+    <string name="about_us__visit_website">Visit To Our Website</string>
+    <string name="about_us__email">Email</string>
+    <string name="about_us__contact">Contact</string>
+    <string name="about_us__source_address">Source Address</string>
+    <string name="about_us__title">App Info</string>
+
+    <!-- Profile -->
+    <string name="profile__title">Profile</string>
+    <string name="profile__name">Name</string>
+    <string name="profile__edit">Edit</string>
+    <string name="profile__likes">Likes</string>
+    <string name="profile__history">History</string>
+    <string name="profile__favourites">Favourites</string>
+    <string name="profile__setting">Setting</string>
+    <string name="profile__joined_on">Joined On</string>
+    <string name="profile__joined_date">Joined Date</string>
+    <string name="profile__orders">History</string>
+    <string name="profile__see_all">See all</string>
+    <string name="profile__verified">Verified</string>]
+    <string name="profile__status">Status</string>
+    <string name="profile__notification">Notification</string>
+    <string name="profile__paid_ad">Paid Ad</string>
+    <string name="profile__no_paid_ad">No paid Ad</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile__title">Edit Profile</string>
+    <string name="edit_profile__user_name">User Name</string>
+    <string name="edit_profile__about_me">About Me</string>
+    <string name="edit_profile__email">Email</string>
+    <string name="edit_profile__password">Password</string>
+    <string name="edit_profile__password_change">Password Change</string>
+    <string name="edit_profile__save">Save</string>
+    <string name="edit_profile__town">Town</string>
+    <string name="edit_profile__division">Division</string>
+    <string name="edit_profile__country">Country</string>
+    <string name="edit_profile__phone">Phone</string>
+    <string name="edit_profile__address">Shipping Address</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="company">Company</string>
+    <string name="address_1">Address 1</string>
+    <string name="address_2">Address 2</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="next">Next</string>
+    <string name="city_location">Location</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="verify_phone_code">Enter OTP Code</string>
+
+    <!-- Menu -->
+    <string name="menu__home">Home</string>
+    <string name="menu__all_cities">All Cities</string>
+    <string name="menu__popular_cities">Popular Cities</string>
+    <string name="menu__recommended_cities">Recommended  Cities</string>
+    <string name="menu__profile">Profile</string>
+    <string name="menu__like">Like</string>
+    <string name="menu__favourite_items">Favourite</string>
+    <string name="menu__uploaded_items">Uploaded Items</string>
+    <string name="menu__transaction">Transaction</string>
+    <string name="menu__user_history">User History</string>
+    <string name="menu__logout">Logout</string>
+    <string name="menu__about_app">About Us</string>
+    <string name="menu__contact_us">Contact Us</string>
+    <string name="menu__notification_setting">Notification Settings</string>
+    <string name="menu__language">Language</string>
+    <string name="menu__setting">Settings</string>
+    <string name="menu__exployer">Let\'s Explore</string>
+    <string name="menu__me">Me</string>
+    <string name="menu__interest">Interest</string>
+    <string name="menu__app_setting">App</string>
+    <string name="menu__user_info">User Info</string>
+    <string name="menu__save">Save</string>
+    <string name="menu__search">Search</string>
+    <string name="menu__side_bar_menu">More</string>
+    <string name="menu__filter">Filter</string>
+    <string name="menu__latest_item">Latest Destinations</string>
+    <string name="menu__discount">On Going Promotions</string>
+    <string name="menu__category">Interest</string>
+    <string name="menu__featured_item">Featured Destinations</string>
+    <string name="menu__subcategory">SubCategory</string>
+    <string name="menu__trending_item">Popular Destinations</string>
+    <string name="menu__trending_category">Trending Categories</string>
+    <string name="menu__home_category_view_All_zg">View All</string>
+    <string name="menu__home_category_view_All_un">View All</string>
+    <string name="menu__home_category_textView">Categories</string>
+    <string name="menu__collections">Collections</string>
+    <string name="menu__map_filter_apply">APPLY</string>
+    <string name="menu__map_filter_reset">RESET</string>
+    <string name="menu__home_discount_view_all">View All Discount Products</string>
+    <string name="menu__rate">Rate this app</string>
+    <string name="menu__item">Explorer</string>
+    <string name="menu__privacy_policy">Terms And Conditions</string>
+    <string name="setting__change_gdpr">Change GDPR setting</string>
+    <string name="menu__paid_ad_transaction">Paid AD Transaction</string>
+
+    <!-- Collection List -->
+    <string name="collection__list_title">Collection List</string>
+
+    <!--Item detail-->
+    <string name="item_detail__isFeatured">Featured</string>
+    <string name="item_detail__rating">No rating.</string>
+    <string name="item_detail__view_count">%1$s Views</string>
+    <string name="item_detail__review_count">%1$s Reviews</string>
+    <string name="item_detail__comment_count">%1$s Comments</string>
+    <string name="item_detail__fav_count">%1$s Favorite</string>
+    <string name="item_detail__time">%1$s - %2$s</string>
+    <string name="item_detail__time_remark">Remark : %1$s</string>
+    <string name="item_detail__category">%1$s / %2$s</string>
+    <string name="item_detail__read_more">Read More</string>
+    <string name="item_detail__view_on_map">View On Map</string>
+    <string name="item_detail__call">Call</string>
+    <string name="item_detail__what_you_get">What you get ?</string>
+    <string name="item_detail__address">Address</string>
+    <string name="item_detail__hour">Opening Hour</string>
+    <string name="item_detail__highlight">Highlighted Information</string>
+    <string name="item_detail__info">Contact Info</string>
+    <string name="item_detail__statistic">Statistic</string>
+    <string name="item_detail__tag">Tags</string>
+    <string name="item_detail__category_title">Category</string>
+    <string name="item_detail__how_rate">How would you rate this place ?</string>
+    <string name="item_detail__policy">Cancellation Policy</string>
+    <string name="item_detail__term_con">Terms And Condition</string>
+    <string name="item_detail__add_info">Additional Info</string>
+    <string name="item_detail__help_other">Help other find the best place to enjoy</string>
+    <string name="item_detail__install_messenger_app">Please install Messenger App.</string>
+    <string name="item_detail__install_whatsapp_app">Please install WhatsApp App.</string>
+    <string name="item_detail__promote_title">Promote Your Item</string>
+    <string name="item_detail__promote_sub_title">Promote your item and reach more buyers</string>
+    <string name="item_detail__promote_description">Let more people discover your item and display your item at the top of the lists.</string>
+    <string name="item_detail__promote">Promote</string>
+    <!--Discount-->
+    <string name="discount__rating5">%1$s rating ( %2$s )</string>
+
+    <!--Map-->
+    <string name="map_filter__map_title">Map Filter</string>
+    <string name="map_filter__browsing">Browsing Around</string>
+    <string name="map_filter__all">All</string>
+
+    <!--Warning-->
+    <string name="no_internet_error">No internet connection.</string>
+
+    <!--SUCCESS-->
+    <string name="message_sent">Your message has been sent.</string>
+
+    <!--NOTIFICATION-->
+
+    <string name="update_noti">Please Wait! Still updating notification setting.</string>
+    <string name="copied_to_clipboard">Copied to clipboard.</string>
+    <string name="confirm_to_Buy">Please confirm to proceed this order</string>
+    <string name="delete_item_from_basket">Are you sure to delete this from basket :(</string>
+    <string name="add_to_basket_confirm_box">Are you sure to add into basket :)</string>
+
+    <string name="success">SUCCESS</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="info">INFO</string>
+    <string name="error">ERROR</string>
+    <string name="warning">WARNING</string>
+    <string name="version_update">Version Update</string>
+    <string name="update">Update</string>
+
+    <!--CATEGORY LIST -->
+    <string name="category__list_title">What is your interest ?</string>
+
+    <!--SUB CATEGORY LIST -->
+    <string name="sub_category__list_title">Sub Category List</string>
+
+    <!--BlogList-->
+    <string name="blog_list__title">Blog List</string>
+
+    <!--BlogDetail-->
+    <string name="blog_detail__error_message">Blog with this id does not exist</string>
+    <string name="blog_detail__title">Blog Detail</string>
+
+    <!--City Menu-->
+    <string name="city_menu__title">City Menu</string>
+
+    <!-- Selected shop -->
+    <string name="city__sure_to_exit">Are you sure you want to exit from this city?</string>
+
+    <!--item list-->
+    <string name="item_list_title">Item List</string>
+
+    <!--force update-->
+    <string name="force_update_true">Update is available</string>
+    <string name="force_update__button_update"> Update </string>
+
+    <!--Email-->
+    <string name="hello">Hello</string>
+    <string name="send_email">Send mail</string>
+    <string name="invalid_url">Invalid Url</string>
+
+    <!--Dashboard-->
+    <string name="dashboard_keyword">Keyword</string>
+    <string name="dashboard_best_things">Explore Endless Attractions Places</string>
+    <string name="dashboard_popular_cities">Popular Destinations</string>
+    <string name="dashboard_best_cities">Explore Wonderful Destinations </string>
+    <string name="dashboard_new_cities">Explore New Destinations</string>
+    <string name="dashboard_blog">Something Exciting is Happening</string>
+    <string name="dashboard_popular_places">Explore Popular Places</string>
+    <string name="dashboard_new_places">Explore New Places</string>
+    <string name="dashboard_promo_list">Ongoing Promos</string>
+
+    <string name="dashboard_review">Reviews</string>
+
+    <string name="dashboard_city_category">City Categories</string>
+    <string name="dashboard_best_things_desc">Get yourself ready for non-stop adventures!</string>
+    <string name="dashboard_popular_cities_desc">Locations everyone just can\'t get enough of!</string>
+    <string name="dashboard_best_cities_desc">Locations everyone should visit!</string>
+    <string name="dashboard_new_cities_desc">Explore destinations, food and culture around the world.</string>
+    <string name="dashboard_popular_places_desc">City\'s Best Places to Visit.</string>
+    <string name="dashboard_new_places_desc">Explore destinations, food and culture around the world.</string>
+    <string name="dashboard_promo_list_desc">Enjoy our promos and save the money for your nice trip.</string>
+    <!--Dashboard-->
+
+    <!--Selected City-->
+    <string name="selected_city_know_more">I want to know more about this city !</string>
+    <string name="selected_city_interested_in">What are you interested in ?</string>
+    <string name="selected_city_best_things">Explore Endless Attractions Places</string>
+    <string name="selected_city_popular_places">Explore Popular places</string>
+    <string name="selected_city_new_places">Explore New Places</string>
+    <string name="selected_city_promo">Ongoing Promos</string>
+    <string name="selected_city_read_all">Read All About This City Name</string>
+    <string name="selected_city_category_desc">Explore your adventures base on your interest!</string>
+    <string name="selected_city_best_thing_desc">Get yourself ready for non-stop adventures!</string>
+    <string name="selected_city_popular_desc">City\'s Best Places to Visit.</string>
+    <string name="selected_city_new_desc">Explore destinations, food and culture around the world.</string>
+    <string name="selected_city_promo_desc">Enjoy our promos and save the money for your nice trip.</string>
+
+    <!--Selected City-->
+
+    <!--City List-->
+    <string name="city_list_title">City List</string>
+    <!--City List-->
+
+
+    <!--Setting -->
+    <string name="setting__clear_cache_confirm">Are you sure to clear image cache?</string>
+    <string name="setting__clear_image_cache">Clear Image Cache</string>
+    <string name="setting__image_cache_size">Image Cache Size</string>
+    <string name="setting__version_no">Version No : </string>
+
+
+    <!-- Item Upload -->
+    <string name="item_upload__item_upload">Item Upload</string>
+    <string name="item_upload__item_name">Item Name</string>
+    <string name="item_upload__subcategory_name">SubCategory</string>
+    <string name="item_upload__discount_name">Discount Type</string>
+    <string name="item_upload__search_name">Search Tags/Keyword</string>
+    <string name="item_upload__description">Description</string>
+    <string name="item_upload__is_published">is Published</string>
+    <string name="item_upload__item_images">Item Images</string>
+    <string name="item_upload__view_all">View All ></string>
+    <string name="item_upload__btn_attributes">SPECIFICATIONS</string>
+    <string name="item_upload__btn_upload_image">UPLOAD IMAGE</string>
+    <string name="item_upload__btn_save">SAVE</string>
+    <string name="item_upload__btn_filter">SEARCH</string>
+    <string name="item_upload__price">Price</string>
+    <string name="item_upload__image_error_message">No Image Uploaded Yet</string>
+    <string name="item_upload__category_name">Category Name</string>
+    <string name="item_upload__sub_category_name">Sub Category Name</string>
+    <string name="item_upload__item_highlight_infomation">Item HighLight Information</string>
+    <string name="item_upload__item_description">Item Description</string>
+    <string name="item_upload__is_feature">is Featured</string>
+    <string name="item_upload__is_promotion">is Promotion</string>
+    <string name="item_upload__open_time">Open time:</string>
+    <string name="item_upload__close_time">Close time:</string>
+    <string name="item_upload__search_tag">Search Tag</string>
+    <string name="item_upload__time_remark">Time Remark</string>
+    <string name="item_upload__phone_one">Phone 1</string>
+    <string name="item_upload__phone_two">Phone 2</string>
+    <string name="item_upload__phone_three">Phone 3</string>
+    <string name="item_upload__email">Email</string>
+    <string name="item_upload__address">Address</string>
+    <string name="item_upload__facebook">Facebook</string>
+    <string name="item_upload__twitter">Twitter</string>
+    <string name="item_upload__instagram">Instagram</string>
+    <string name="item_upload__website">Website</string>
+    <string name="item_upload__google_plus">Google+</string>
+    <string name="item_upload__youtube">Youtube</string>
+    <string name="item_upload__pinterest">Pinterest</string>
+    <string name="item_upload__whatsapp">Whatsapp Number</string>
+    <string name="item_upload__messenger">Messenger</string>
+    <string name="item_upload__terms">Terms and Conditions</string>
+    <string name="item_upload__cancelation_policy">Cancellation Policy</string>
+    <string name="item_upload__additional_info">Additional Info</string>
+    <string name="item_upload__information">Item Information</string>
+    <string name="item_upload__schedule">Schedule</string>
+    <string name="item_upload__contact">Contact</string>
+    <string name="item_upload__social_information">Social Information</string>
+    <string name="item_upload__policy">Policy</string>
+    <string name="item_upload__pin_location">Pin Location</string>
+    <string name="item_upload__latitude">Latitude</string>
+    <string name="item_upload__longitude">Longitude</string>
+    <string name="item_upload__item_saved">Item successfully saved</string>
+    <string name="item_upload__item_name_required">Item Name is required.</string>
+    <string name="item_upload__item_category_required">Item Category is required.</string>
+    <string name="item_upload__already_saved">Item Already Saved.</string>
+    <string name="item_upload__status">Status</string>
+    <string name="item_upload__pending">Pending</string>
+    <string name="item_upload__reject">Reject</string>
+    <string name="item_upload__item_name_length">Item Name must be greater than 4</string>
+    <string name="item_upload__item_sub_category_required">Item Sub Category is required.</string>
+
+
+    <!-- Image Upload -->
+    <string name="image_upload__choose_photo">Choose photo</string>
+    <string name="image_upload__upload">UPLOAD</string>
+    <string name="message__image_desc">Item description</string>
+    <string name="image_upload__title_item">Item Image Upload</string>
+    <string name="error_message__img_not_selected">No Image Selected</string>
+    <string name="message__image_upload_complete">Image Uploaded Successfully</string>
+
+
+    <!-- Specification -->
+    <string name="specification__specification_list">Specification List</string>
+    <string name="specification__add_menu">ADD</string>
+    <string name="specification__name">Name</string>
+    <string name="specification__description">Description</string>
+    <string name="specification__edit_save_button">Save</string>
+    <string name="specification__specification_entry">Specification Entry</string>
+    <string name="specification__edit_specification">Edit Specification</string>
+    <string name="specification__success_saved">Specification Saved Successfully</string>
+    <string name="specification__insert_value">Please Insert Value</string>
+    <string name="specification__already_added">Specification Already Added.</string>
+    <string name="specification__warning_delete">Do you want to delete this?</string>
+
+    <!-- Uploaded List -->
+    <string name="uploaded_list__no_data">No Data</string>
+    <string name="uploaded_list__cat_and_subcat"> %1$s / %2$s</string>
+
+    <!-- Map -->
+    <string name="map__map">Map</string>
+    <string name="map__pick">PICK LOCATION</string>
+
+    <!-- Verify Email -->
+    <string name="verify_email__informateion">You\'ve just received an email containing verification code on</string>
+    <string name="verify_email__enter_code">Enter verification code</string>
+    <string name="verify_email__change_email">Change Email</string>
+    <string name="verify_email__resent_code">Resent Code</string>
+    <string name="verify_email__submit">Submit</string>
+    <string name="verify_email__title">Email Verification</string>
+
+    <!-- Verify Phone -->
+    <string name="verify_phone__informateion">You\'ve just received phone message containing OTP Code on</string>
+    <string name="verify_phone__back_login">BACK TO LOGIN ?</string>
+    <string name="verify_phone__title">Phone Verification</string>
+    <string name="error_message__blank_phone_no">Please input the phone number.</string>
+
+    <!--Phone Login Text Hint-->
+    <string name="phone_login_phone_hint" translatable="false">+959121212121</string>
+
+    <!-- Promote Item -->
+    <string name="item_promote__promote_entry">Promote Item Entry</string>
+    <string name="item_promote__start_date">Add Start Date</string>
+    <string name="item_promote__start_date_hint">Please Select Start Date</string>
+    <string name="item_promote__promote_custom">Custom</string>
+    <string name="item_promote__default_custom_price">0.00</string>
+    <string name="item_promote__days">days</string>
+    <string name="item_promote__c_days">Days</string>
+    <string name="item_promote__promote_for">Promote For</string>
+    <string name="item_promote__how_many_days">How Many Days?</string>
+    <string name="item_promote__warning_for_start_date">Please select your starting date.</string>
+    <string name="item_promote__warning_for_day">Please select at least one day</string>
+    <string name="item_promote__amount">Amount</string>
+    <string name="item_promote__paypal">Pay with Paypal</string>
+    <string name="item_promote__stripe">Pay with Card</string>
+    <string name="item_promote__success_message">Successfully paid AD.</string>
+    <string name="item_promote__error_message">Error paid AD.</string>
+    <string name="item_promote__enter_day">Please enter day</string>
+
+
+    <!-- PaidAd -->
+    <string name="paid__start_date">Start Date:</string>
+    <string name="paid__end_date">End Date:</string>
+    <string name="paid__amount">Amount Spend:</string>
+    <string name="paid__ads_in_progress">Ads In Progress</string>
+    <string name="paid__ads_in_completed">Ads Completed</string>
+    <string name="paid__ads_is_not_yet_start">Ads is Not Yet Start</string>
+    <string name="paid__sponsored">Sponsored</string>
+    <!-- END -->
+</resources>
+
+
+
+

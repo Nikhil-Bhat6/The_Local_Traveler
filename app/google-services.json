@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1042454463109",
+    "firebase_url": "https://the-local-traveler.firebaseio.com",
+    "project_id": "the-local-traveler",
+    "storage_bucket": "the-local-traveler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042454463109:android:d860dadb6405565dc89fec",
+        "android_client_info": {
+          "package_name": "com.panaceasoft.pscity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042454463109-kroeqd37vttqadb5otc4oiuocfvhctsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.panaceasoft.pscity",
+            "certificate_hash": "12d404b6293d7c261f5b35e6b95ea2b19d7a3c97"
+          }
+        },
+        {
+          "client_id": "1042454463109-k48t7vck7avbs5al8gsc46hajsbormid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl0EO1puEM6Bjtf85tSFILCFKj7THi17M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042454463109-k48t7vck7avbs5al8gsc46hajsbormid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
