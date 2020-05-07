@@ -489,9 +489,9 @@
 
 
     <!-- Item Upload -->
-    <string name="item_upload__item_upload">Item Upload</string>
-    <string name="item_upload__item_name">Item Name</string>
-    <string name="item_upload__subcategory_name">SubCategory</string>
+    <string name="item_upload__item_upload">Add New Location</string>
+    <string name="item_upload__item_name">Name of the location</string>
+    <string name="item_upload__subcategory_name">SubCategory</string><!-- should be deleted -->
     <string name="item_upload__discount_name">Discount Type</string>
     <string name="item_upload__search_name">Search Tags/Keyword</string>
     <string name="item_upload__description">Description</string>
@@ -504,7 +504,7 @@
     <string name="item_upload__btn_filter">SEARCH</string>
     <string name="item_upload__price">Price</string>
     <string name="item_upload__image_error_message">No Image Uploaded Yet</string>
-    <string name="item_upload__category_name">Category Name</string>
+    <string name="item_upload__category_name">Type of Location</string>
     <string name="item_upload__sub_category_name">Sub Category Name</string>
     <string name="item_upload__item_highlight_infomation">Item HighLight Information</string>
     <string name="item_upload__item_description">Item Description</string>

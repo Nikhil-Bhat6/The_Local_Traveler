@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PS-City.iml" filepath="$PROJECT_DIR$/PS-City.iml" group="PS-City" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="PS-City/app" />
+      <module fileurl="file://$PROJECT_DIR$/The_Local_Traveler.iml" filepath="$PROJECT_DIR$/The_Local_Traveler.iml" group="The_Local_Traveler" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="The_Local_Traveler/app" />
     </modules>
   </component>
 </project>
