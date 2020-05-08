@@ -22,10 +22,10 @@
                         android:id="@+id/nav_latest"
                         android:icon="@drawable/baesline_access_time_black_24"
                         android:title="@string/menu__latest_item" />
-                    <item
-                        android:id="@+id/nav_promotion"
-                        android:icon="@drawable/baseline_discount_grey_24"
-                        android:title="@string/menu__discount" />
+<!--                    <item-->
+<!--                        android:id="@+id/nav_promotion"-->
+<!--                        android:icon="@drawable/baseline_discount_grey_24"-->
+<!--                        android:title="@string/menu__discount" />-->
                     <item
                         android:id="@+id/nav_best_thing"
                         android:icon="@drawable/baseline_featured_grey_24"
@@ -111,10 +111,10 @@
                         android:id="@+id/nav_latest_login"
                         android:icon="@drawable/baesline_access_time_black_24"
                         android:title="@string/menu__latest_item" />
-                    <item
-                        android:id="@+id/nav_promotion_login"
-                        android:icon="@drawable/baseline_discount_grey_24"
-                        android:title="@string/menu__discount" />
+<!--                    <item-->
+<!--                        android:id="@+id/nav_promotion_login"-->
+<!--                        android:icon="@drawable/baseline_discount_grey_24"-->
+<!--                        android:title="@string/menu__discount" />-->
                     <item
                         android:id="@+id/nav_best_thing_login"
                         android:icon="@drawable/baseline_featured_grey_24"

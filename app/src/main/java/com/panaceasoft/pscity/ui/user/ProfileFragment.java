@@ -92,7 +92,7 @@ public class ProfileFragment extends PSFragment implements DataBoundListAdapter.
         binding.get().heartImageView.setOnClickListener(view -> navigationController.navigateToFavouriteActivity(getActivity()));
         binding.get().settingTextView.setOnClickListener(view -> navigationController.navigateToSettingActivity(getActivity()));
         binding.get().userNotificatinTextView.setOnClickListener(view -> navigationController.navigateToNotificationList(getActivity()));
-        binding.get().paidAdViewAllTextView.setOnClickListener(view -> navigationController.navigateToUserHistoryActivity(getActivity(), loginUserId, Constants.FLAGPAID));
+//        binding.get().paidAdViewAllTextView.setOnClickListener(view -> navigationController.navigateToUserHistoryActivity(getActivity(), loginUserId, Constants.FLAGPAID));
 
     }
 

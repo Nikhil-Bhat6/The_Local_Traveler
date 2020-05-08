@@ -271,24 +271,24 @@ public class ItemUploadFragment extends PSFragment implements DataBoundListAdapt
                             binding.get().longitudeTextView.setText(result.data.lng);
                             binding.get().openTimeTextView.setText(result.data.openingHour);
                             binding.get().closeTimeTextView.setText(result.data.closingHour);
-                            binding.get().phoneOneTextView.setText(result.data.phone1);
-                            binding.get().phoneTwoTextView.setText(result.data.phone2);
+//                            binding.get().phoneOneTextView.setText(result.data.phone1);
+//                            binding.get().phoneTwoTextView.setText(result.data.phone2);
                             binding.get().phoneThreeTextView.setText(result.data.phone3);
                             binding.get().emailTextView.setText(result.data.email);
                             binding.get().addressTextView.setText(result.data.address);
-                            binding.get().facebookTextView.setText(result.data.facebook);
-                            binding.get().googlePlusTextView.setText(result.data.google_plus);
-                            binding.get().twitterTextView.setText(result.data.twitter);
-                            binding.get().youtubeTextView.setText(result.data.youtube);
-                            binding.get().instagrmTextView.setText(result.data.instagram);
-                            binding.get().pinterestTextView.setText(result.data.pinterest);
-                            binding.get().websiteTextView.setText(result.data.website);
-                            binding.get().whatappsTextView.setText(result.data.whatsapp);
-                            binding.get().messangerTextView2.setText(result.data.messenger);
+//                            binding.get().facebookTextView.setText(result.data.facebook);
+//                            binding.get().googlePlusTextView.setText(result.data.google_plus);
+//                            binding.get().twitterTextView.setText(result.data.twitter);
+//                            binding.get().youtubeTextView.setText(result.data.youtube);
+//                            binding.get().instagrmTextView.setText(result.data.instagram);
+//                            binding.get().pinterestTextView.setText(result.data.pinterest);
+//                            binding.get().websiteTextView.setText(result.data.website);
+//                            binding.get().whatappsTextView.setText(result.data.whatsapp);
+//                            binding.get().messangerTextView2.setText(result.data.messenger);
                             binding.get().timeRemarkTextView.setText(result.data.time_remark);
                             binding.get().termsAndConditionTextView.setText(result.data.terms);
-                            binding.get().cancelationTextView.setText(result.data.cancelation_policy);
-                            binding.get().additionalTextView.setText(result.data.additional_info);
+//                            binding.get().cancelationTextView.setText(result.data.cancelation_policy);
+//                            binding.get().additionalTextView.setText(result.data.additional_info);
                             binding.get().statusTextView.setText(result.data.itemStatusId);
 
                             itemViewModel.savedItemName = result.data.name;
@@ -369,24 +369,24 @@ public class ItemUploadFragment extends PSFragment implements DataBoundListAdapt
                             binding.get().longitudeTextView.setText(result.data.lng);
                             binding.get().openTimeTextView.setText(result.data.openingHour);
                             binding.get().closeTimeTextView.setText(result.data.closingHour);
-                            binding.get().phoneOneTextView.setText(result.data.phone1);
-                            binding.get().phoneTwoTextView.setText(result.data.phone2);
+//                            binding.get().phoneOneTextView.setText(result.data.phone1);
+//                            binding.get().phoneTwoTextView.setText(result.data.phone2);
                             binding.get().phoneThreeTextView.setText(result.data.phone3);
                             binding.get().emailTextView.setText(result.data.email);
                             binding.get().addressTextView.setText(result.data.address);
-                            binding.get().facebookTextView.setText(result.data.facebook);
-                            binding.get().googlePlusTextView.setText(result.data.google_plus);
-                            binding.get().twitterTextView.setText(result.data.twitter);
-                            binding.get().youtubeTextView.setText(result.data.youtube);
-                            binding.get().instagrmTextView.setText(result.data.instagram);
-                            binding.get().pinterestTextView.setText(result.data.pinterest);
-                            binding.get().websiteTextView.setText(result.data.website);
-                            binding.get().whatappsTextView.setText(result.data.whatsapp);
-                            binding.get().messangerTextView2.setText(result.data.messenger);
+//                            binding.get().facebookTextView.setText(result.data.facebook);
+//                            binding.get().googlePlusTextView.setText(result.data.google_plus);
+//                            binding.get().twitterTextView.setText(result.data.twitter);
+//                            binding.get().youtubeTextView.setText(result.data.youtube);
+//                            binding.get().instagrmTextView.setText(result.data.instagram);
+//                            binding.get().pinterestTextView.setText(result.data.pinterest);
+//                            binding.get().websiteTextView.setText(result.data.website);
+//                            binding.get().whatappsTextView.setText(result.data.whatsapp);
+//                            binding.get().messangerTextView2.setText(result.data.messenger);
                             binding.get().timeRemarkTextView.setText(result.data.time_remark);
                             binding.get().termsAndConditionTextView.setText(result.data.terms);
-                            binding.get().cancelationTextView.setText(result.data.cancelation_policy);
-                            binding.get().additionalTextView.setText(result.data.additional_info);
+//                            binding.get().cancelationTextView.setText(result.data.cancelation_policy);
+//                            binding.get().additionalTextView.setText(result.data.additional_info);
 
                             if (result.data.itemStatusId.equals("1")) {
                                 binding.get().statusTextView.setText(Constants.CHECKED_PUBLISH);
@@ -514,24 +514,24 @@ public class ItemUploadFragment extends PSFragment implements DataBoundListAdapt
                         itemViewModel.savedOpeningHour = binding.get().openTimeTextView.getText().toString();
                         itemViewModel.savedClosingHour = binding.get().closeTimeTextView.getText().toString();
                         itemViewModel.savedIsPromotion = binding.get().isPromotion.isChecked();
-                        itemViewModel.savedPhoneOne = binding.get().phoneOneTextView.getText().toString();
-                        itemViewModel.savedPhoneTwo = binding.get().phoneTwoTextView.getText().toString();
+//                        itemViewModel.savedPhoneOne = binding.get().phoneOneTextView.getText().toString();
+//                        itemViewModel.savedPhoneTwo = binding.get().phoneTwoTextView.getText().toString();
                         itemViewModel.savedPhoneThree = binding.get().phoneThreeTextView.getText().toString();
                         itemViewModel.savedEmail = binding.get().emailTextView.getText().toString();
                         itemViewModel.savedAddress = binding.get().addressTextView.getText().toString();
-                        itemViewModel.savedFacebook = binding.get().facebookTextView.getText().toString();
-                        itemViewModel.savedGooglePlus = binding.get().googlePlusTextView.getText().toString();
-                        itemViewModel.savedTwitter = binding.get().twitterTextView.getText().toString();
-                        itemViewModel.savedYoutube = binding.get().youtubeTextView.getText().toString();
-                        itemViewModel.savedInstagram = binding.get().instagrmTextView.getText().toString();
-                        itemViewModel.savedPinterest = binding.get().pinterestTextView.getText().toString();
-                        itemViewModel.savedWebsite = binding.get().websiteTextView.getText().toString();
-                        itemViewModel.savedWhatsapp = binding.get().whatappsTextView.getText().toString();
-                        itemViewModel.savedMessenger = binding.get().messangerTextView2.getText().toString();
+//                        itemViewModel.savedFacebook = binding.get().facebookTextView.getText().toString();
+//                        itemViewModel.savedGooglePlus = binding.get().googlePlusTextView.getText().toString();
+//                        itemViewModel.savedTwitter = binding.get().twitterTextView.getText().toString();
+//                        itemViewModel.savedYoutube = binding.get().youtubeTextView.getText().toString();
+//                        itemViewModel.savedInstagram = binding.get().instagrmTextView.getText().toString();
+//                        itemViewModel.savedPinterest = binding.get().pinterestTextView.getText().toString();
+//                        itemViewModel.savedWebsite = binding.get().websiteTextView.getText().toString();
+//                        itemViewModel.savedWhatsapp = binding.get().whatappsTextView.getText().toString();
+//                        itemViewModel.savedMessenger = binding.get().messangerTextView2.getText().toString();
                         itemViewModel.savedTimeRemark = binding.get().timeRemarkTextView.getText().toString();
                         itemViewModel.savedTerms = binding.get().termsAndConditionTextView.getText().toString();
-                        itemViewModel.savedCancelationPolicy = binding.get().cancelationTextView.getText().toString();
-                        itemViewModel.savedAdditionalInfo = binding.get().additionalTextView.getText().toString();
+//                        itemViewModel.savedCancelationPolicy = binding.get().cancelationTextView.getText().toString();
+//                        itemViewModel.savedAdditionalInfo = binding.get().additionalTextView.getText().toString();
                         itemViewModel.savedStatusSelectedId = binding.get().statusTextView.getText().toString();
 
                         itemViewModel.saved = true;
@@ -639,24 +639,37 @@ public class ItemUploadFragment extends PSFragment implements DataBoundListAdapt
                 binding.get().openTimeTextView.getText().toString(),
                 binding.get().closeTimeTextView.getText().toString(),
                 checkedPromotion,
-                binding.get().phoneOneTextView.getText().toString(),
-                binding.get().phoneTwoTextView.getText().toString(),
+//                binding.get().phoneOneTextView.getText().toString(),
+//                binding.get().phoneTwoTextView.getText().toString(),
+                "123",
+                "456",
                 binding.get().phoneThreeTextView.getText().toString(),
                 binding.get().emailTextView.getText().toString(),
                 binding.get().addressTextView.getText().toString(),
-                binding.get().facebookTextView.getText().toString(),
-                binding.get().googlePlusTextView.getText().toString(),
-                binding.get().twitterTextView.getText().toString(),
-                binding.get().youtubeTextView.getText().toString(),
-                binding.get().instagrmTextView.getText().toString(),
-                binding.get().pinterestTextView.getText().toString(),
-                binding.get().websiteTextView.getText().toString(),
-                binding.get().whatappsTextView.getText().toString(),
-                binding.get().messangerTextView2.getText().toString(),
+//                binding.get().facebookTextView.getText().toString(),
+                "qwerty",
+                "qwerty",
+                "qwerty",
+                "qwerty",
+                "qwerty",
+                "qwerty",
+                "qwerty",
+                "qwerty",
+                "qwerty",
+//                binding.get().googlePlusTextView.getText().toString(),
+//                binding.get().twitterTextView.getText().toString(),
+//                binding.get().youtubeTextView.getText().toString(),
+//                binding.get().instagrmTextView.getText().toString(),
+//                binding.get().pinterestTextView.getText().toString(),
+//                binding.get().websiteTextView.getText().toString(),
+//                binding.get().whatappsTextView.getText().toString(),
+//                binding.get().messangerTextView2.getText().toString(),
                 binding.get().timeRemarkTextView.getText().toString(),
                 binding.get().termsAndConditionTextView.getText().toString(),
-                binding.get().cancelationTextView.getText().toString(),
-                binding.get().additionalTextView.getText().toString(),
+//                binding.get().cancelationTextView.getText().toString(),
+                "qwerty",
+                "qwerty",
+//                binding.get().additionalTextView.getText().toString(),
                 itemViewModel.itemSelectId
 
         );
@@ -696,24 +709,24 @@ public class ItemUploadFragment extends PSFragment implements DataBoundListAdapt
                 !binding.get().longitudeTextView.getText().toString().equals(itemViewModel.savedLongitude) ||
                 !binding.get().openTimeTextView.getText().toString().equals(itemViewModel.savedOpeningHour) ||
                 !binding.get().closeTimeTextView.getText().toString().equals(itemViewModel.savedClosingHour) ||
-                !binding.get().phoneOneTextView.getText().toString().equals(itemViewModel.savedPhoneOne) ||
-                !binding.get().phoneTwoTextView.getText().toString().equals(itemViewModel.savedPhoneTwo) ||
+//                !binding.get().phoneOneTextView.getText().toString().equals(itemViewModel.savedPhoneOne) ||
+//                !binding.get().phoneTwoTextView.getText().toString().equals(itemViewModel.savedPhoneTwo) ||
                 !binding.get().phoneThreeTextView.getText().toString().equals(itemViewModel.savedPhoneThree) ||
                 !binding.get().emailTextView.getText().toString().equals(itemViewModel.savedEmail) ||
                 !binding.get().addressTextView.getText().toString().equals(itemViewModel.savedAddress) ||
-                !binding.get().facebookTextView.getText().toString().equals(itemViewModel.savedFacebook) ||
-                !binding.get().googlePlusTextView.getText().toString().equals(itemViewModel.savedGooglePlus) ||
-                !binding.get().twitterTextView.getText().toString().equals(itemViewModel.savedTwitter) ||
-                !binding.get().youtubeTextView.getText().toString().equals(itemViewModel.savedYoutube) ||
-                !binding.get().instagrmTextView.getText().toString().equals(itemViewModel.savedInstagram) ||
-                !binding.get().pinterestTextView.getText().toString().equals(itemViewModel.savedPinterest) ||
-                !binding.get().websiteTextView.getText().toString().equals(itemViewModel.savedWebsite) ||
-                !binding.get().whatappsTextView.getText().toString().equals(itemViewModel.savedWhatsapp) ||
-                !binding.get().messangerTextView2.getText().toString().equals(itemViewModel.savedMessenger) ||
+//                !binding.get().facebookTextView.getText().toString().equals(itemViewModel.savedFacebook) ||
+//                !binding.get().googlePlusTextView.getText().toString().equals(itemViewModel.savedGooglePlus) ||
+//                !binding.get().twitterTextView.getText().toString().equals(itemViewModel.savedTwitter) ||
+//                !binding.get().youtubeTextView.getText().toString().equals(itemViewModel.savedYoutube) ||
+//                !binding.get().instagrmTextView.getText().toString().equals(itemViewModel.savedInstagram) ||
+//                !binding.get().pinterestTextView.getText().toString().equals(itemViewModel.savedPinterest) ||
+//                !binding.get().websiteTextView.getText().toString().equals(itemViewModel.savedWebsite) ||
+//                !binding.get().whatappsTextView.getText().toString().equals(itemViewModel.savedWhatsapp) ||
+//                !binding.get().messangerTextView2.getText().toString().equals(itemViewModel.savedMessenger) ||
                 !binding.get().timeRemarkTextView.getText().toString().equals(itemViewModel.savedTimeRemark) ||
                 !binding.get().termsAndConditionTextView.getText().toString().equals(itemViewModel.savedTerms) ||
-                !binding.get().cancelationTextView.getText().toString().equals(itemViewModel.savedCancelationPolicy) ||
-                !binding.get().additionalTextView.getText().toString().equals(itemViewModel.savedAdditionalInfo) ||
+//                !binding.get().cancelationTextView.getText().toString().equals(itemViewModel.savedCancelationPolicy) ||
+//                !binding.get().additionalTextView.getText().toString().equals(itemViewModel.savedAdditionalInfo) ||
                 !binding.get().statusTextView.getText().toString().equals(itemViewModel.savedStatusSelectedId) ||
                 binding.get().isPromotion.isChecked() != itemViewModel.savedIsPromotion ||
                 binding.get().isFeature.isChecked() != itemViewModel.savedIsFeatured;

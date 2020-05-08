@@ -74,7 +74,7 @@ public class SearchListAdapter extends DataBoundListAdapter<Item, ItemItemVertic
 
         if (item.paidStatus.equals(Constants.ADSPROGRESS)){
             binding.sponsorCardView.setVisibility(View.VISIBLE);
-            binding.addedDateStrTextView.setText(R.string.paid__sponsored);
+//            binding.addedDateStrTextView.setText(R.string.paid__sponsored);
         } else{
             binding.sponsorCardView.setVisibility(View.GONE);
         }

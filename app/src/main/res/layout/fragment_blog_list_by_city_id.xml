@@ -22,7 +22,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/blogListRecyclerView"
@@ -31,9 +32,9 @@
                 android:layout_marginBottom="8dp"
                 android:clipToPadding="false"
                 android:orientation="vertical"
-                android:paddingTop="@dimen/space_16"
-                android:paddingStart="@dimen/space_20"
                 android:paddingEnd="@dimen/space_20"
+                android:paddingStart="@dimen/space_20"
+                android:paddingTop="@dimen/space_16"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 app:layout_constraintBottom_toTopOf="@+id/progressBar3"
                 app:layout_constraintEnd_toEndOf="parent"

@@ -478,12 +478,12 @@ public class MainActivity extends PSAppCompactActivity {
                 hideBottomNavigation();
                 break;
 
-            case R.id.nav_promotion:
-            case R.id.nav_promotion_login:
-                setToolbarText(binding.toolbar, getString(R.string.menu__discount));
-                navigationController.navigateToDiscountProduct(MainActivity.this, new ItemParameterHolder().getDiscountItem());
-                hideBottomNavigation();
-                break;
+//            case R.id.nav_promotion:
+//            case R.id.nav_promotion_login:
+//                setToolbarText(binding.toolbar, getString(R.string.menu__discount));
+//                navigationController.navigateToDiscountProduct(MainActivity.this, new ItemParameterHolder().getDiscountItem());
+//                hideBottomNavigation();
+//                break;
 
             case R.id.nav_best_thing:
             case R.id.nav_best_thing_login:

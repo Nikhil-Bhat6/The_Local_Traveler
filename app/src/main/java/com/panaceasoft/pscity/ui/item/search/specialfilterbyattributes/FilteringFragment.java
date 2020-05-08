@@ -87,11 +87,11 @@ public class FilteringFragment extends PSFragment implements DataBoundListAdapte
 
                 // Discount Switch Binding
                 if (itemViewModel.holder.is_promotion != null) {
-                    if (itemViewModel.holder.is_promotion.equals(Constants.ONE)) {
-                        binding.get().discountSwitch.setChecked(true);
-                    } else {
-                        binding.get().discountSwitch.setChecked(false);
-                    }
+//                    if (itemViewModel.holder.is_promotion.equals(Constants.ONE)) {
+//                        binding.get().discountSwitch.setChecked(true);
+//                    } else {
+//                        binding.get().discountSwitch.setChecked(false);
+//                    }
 
                 }
 
@@ -171,11 +171,12 @@ public class FilteringFragment extends PSFragment implements DataBoundListAdapte
             }
 
             // Get Discount Switch Data
-            if (binding.get().discountSwitch.isChecked()) {
-                itemViewModel.holder.is_promotion = Constants.ONE;
-            } else {
-                itemViewModel.holder.is_promotion = "";
-            }
+//            if (binding.get().discountSwitch.isChecked()) {
+//                itemViewModel.holder.is_promotion = Constants.ONE;
+//            }
+//            else {
+//                itemViewModel.holder.is_promotion = "";
+//            }
 
             // For Sorting
             if (itemViewModel.holder.is_featured.equals(Constants.ONE) && itemViewModel.holder.order_by.equals(Constants.FILTERING_ADDED_DATE)) {
@@ -300,7 +301,7 @@ public class FilteringFragment extends PSFragment implements DataBoundListAdapte
 
             binding.get().setItemName.setText("");
             binding.get().featuredSwitch.setChecked(false);
-            binding.get().discountSwitch.setChecked(false);
+//            binding.get().discountSwitch.setChecked(false);
             setSortingSelection(0);
 
             unSelectStar(Constants.RATING_ONE);

@@ -69,7 +69,7 @@ public class ItemVerticalListAdapter extends DataBoundListAdapter<Item, ItemItem
 
         if (item.paidStatus.equals(Constants.ADSPROGRESS)){
             binding.sponsorCardView.setVisibility(View.VISIBLE);
-            binding.addedDateStrTextView.setText(R.string.paid__sponsored);
+//            binding.addedDateStrTextView.setText(R.string.paid__sponsored);
         } else{
             binding.sponsorCardView.setVisibility(View.GONE);
         }

@@ -734,47 +734,47 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
-                            <EditText
-                                android:id="@+id/phoneOneTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__phone_one"
-                                android:inputType="number"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView5" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/phoneOneTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__phone_one"-->
+<!--                                android:inputType="number"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView5" />-->
 
-                            <EditText
-                                android:id="@+id/phoneTwoTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__phone_two"
-                                android:inputType="number"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView6" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/phoneTwoTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__phone_two"-->
+<!--                                android:inputType="number"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView6" />-->
 
                             <EditText
                                 android:id="@+id/phoneThreeTextView"
@@ -843,20 +843,20 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/searchTextView8" />
 
-                            <TextView
-                                android:id="@+id/searchTextView5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__phone_one"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView5"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__phone_one"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent" />-->
 
                             <TextView
                                 android:id="@+id/searchTextView7"
@@ -873,20 +873,20 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/phoneTwoTextView" />
 
-                            <TextView
-                                android:id="@+id/searchTextView6"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__phone_two"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/phoneOneTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView6"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__phone_two"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/phoneOneTextView" />-->
 
                             <TextView
                                 android:id="@+id/searchTextView10"
@@ -936,331 +936,331 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
-                            <EditText
-                                android:id="@+id/facebookTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__facebook"
-                                android:inputType="textPersonName"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView9" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/facebookTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__facebook"-->
+<!--                                android:inputType="textPersonName"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView9" />-->
 
-                            <EditText
-                                android:id="@+id/twitterTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__twitter"
-                                android:inputType="textPersonName"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView11" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/twitterTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__twitter"-->
+<!--                                android:inputType="textPersonName"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView11" />-->
 
-                            <EditText
-                                android:id="@+id/youtubeTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__youtube"
-                                android:inputType="textPersonName"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView12" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/youtubeTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__youtube"-->
+<!--                                android:inputType="textPersonName"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView12" />-->
 
-                            <EditText
-                                android:id="@+id/googlePlusTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__google_plus"
-                                android:inputType="textPersonName"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView13" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/googlePlusTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__google_plus"-->
+<!--                                android:inputType="textPersonName"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView13" />-->
 
-                            <EditText
-                                android:id="@+id/instagrmTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__instagram"
-                                android:inputType="textPersonName"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView14" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/instagrmTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__instagram"-->
+<!--                                android:inputType="textPersonName"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView14" />-->
 
-                            <EditText
-                                android:id="@+id/websiteTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__website"
-                                android:inputType="textPersonName"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView15" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/websiteTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__website"-->
+<!--                                android:inputType="textPersonName"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView15" />-->
 
-                            <EditText
-                                android:id="@+id/pinterestTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__pinterest"
-                                android:inputType="textPersonName"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView16" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/pinterestTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__pinterest"-->
+<!--                                android:inputType="textPersonName"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView16" />-->
 
-                            <EditText
-                                android:id="@+id/whatappsTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__whatsapp"
-                                android:inputType="textPersonName"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView17" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/whatappsTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__whatsapp"-->
+<!--                                android:inputType="textPersonName"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView17" />-->
 
-                            <EditText
-                                android:id="@+id/messangerTextView2"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:layout_marginBottom="16dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:hint="@string/item_upload__messenger"
-                                android:inputType="textPersonName"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView18" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/messangerTextView2"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:layout_marginBottom="16dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:hint="@string/item_upload__messenger"-->
+<!--                                android:inputType="textPersonName"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView18" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView9"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__facebook"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView9"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__facebook"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView11"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__twitter"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/facebookTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView11"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__twitter"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/facebookTextView" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView12"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__youtube"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/twitterTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView12"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__youtube"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/twitterTextView" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView13"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__google_plus"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/youtubeTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView13"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__google_plus"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/youtubeTextView" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView14"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__instagram"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/googlePlusTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView14"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__instagram"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/googlePlusTextView" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView15"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__website"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/instagrmTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView15"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__website"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/instagrmTextView" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView16"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__pinterest"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/websiteTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView16"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__pinterest"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/websiteTextView" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView17"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__whatsapp"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/pinterestTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView17"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__whatsapp"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/pinterestTextView" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView18"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__messenger"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/whatappsTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView18"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__messenger"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/whatappsTextView" />-->
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </androidx.cardview.widget.CardView>
@@ -1303,53 +1303,53 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/searchTextView19" />
 
-                            <EditText
-                                android:id="@+id/cancelationTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:gravity="top|left"
-                                android:hint="@string/item_upload__cancelation_policy"
-                                android:inputType="textMultiLine"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:scrollbars="vertical"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView20" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/cancelationTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="70dp"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:gravity="top|left"-->
+<!--                                android:hint="@string/item_upload__cancelation_policy"-->
+<!--                                android:inputType="textMultiLine"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:scrollbars="vertical"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView20" />-->
 
-                            <EditText
-                                android:id="@+id/additionalTextView"
-                                android:layout_width="0dp"
-                                android:layout_height="70dp"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:layout_marginBottom="16dp"
-                                android:background="@drawable/rounded_corner_shape_for_item_upload"
-                                android:ems="10"
-                                android:gravity="top|left"
-                                android:hint="@string/item_upload__additional_info"
-                                android:inputType="textMultiLine"
-                                android:paddingStart="@dimen/space_8"
-                                android:paddingTop="@dimen/space_8"
-                                android:paddingBottom="@dimen/space_8"
-                                android:scrollbars="vertical"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"normal"}'
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/searchTextView21" />
+<!--                            <EditText-->
+<!--                                android:id="@+id/additionalTextView"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="70dp"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="8dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:layout_marginBottom="16dp"-->
+<!--                                android:background="@drawable/rounded_corner_shape_for_item_upload"-->
+<!--                                android:ems="10"-->
+<!--                                android:gravity="top|left"-->
+<!--                                android:hint="@string/item_upload__additional_info"-->
+<!--                                android:inputType="textMultiLine"-->
+<!--                                android:paddingStart="@dimen/space_8"-->
+<!--                                android:paddingTop="@dimen/space_8"-->
+<!--                                android:paddingBottom="@dimen/space_8"-->
+<!--                                android:scrollbars="vertical"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"normal"}'-->
+<!--                                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/searchTextView21" />-->
 
                             <TextView
                                 android:id="@+id/searchTextView19"
@@ -1366,35 +1366,35 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
-                            <TextView
-                                android:id="@+id/searchTextView21"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__additional_info"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/cancelationTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView21"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__additional_info"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/cancelationTextView" />-->
 
-                            <TextView
-                                android:id="@+id/searchTextView20"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="8dp"
-                                android:text="@string/item_upload__cancelation_policy"
-                                android:textColor="@color/text__primary"
-                                android:textSize="@dimen/font_body_size"
-                                app:font='@{"bold"}'
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toBottomOf="@+id/termsAndConditionTextView" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/searchTextView20"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="8dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="8dp"-->
+<!--                                android:text="@string/item_upload__cancelation_policy"-->
+<!--                                android:textColor="@color/text__primary"-->
+<!--                                android:textSize="@dimen/font_body_size"-->
+<!--                                app:font='@{"bold"}'-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toBottomOf="@+id/termsAndConditionTextView" />-->
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </androidx.cardview.widget.CardView>
 

@@ -48,13 +48,13 @@ public class BlogDetailFragment extends PSFragment {
     @Override
     protected void initUIAndActions() {
 
-        if (Config.SHOW_ADMOB && connectivity.isConnected()) {
-            AdRequest adRequest = new AdRequest.Builder()
-                    .build();
-            binding.get().adView.loadAd(adRequest);
-        } else {
-            binding.get().adView.setVisibility(View.GONE);
-        }
+//        if (Config.SHOW_ADMOB && connectivity.isConnected()) {
+//            AdRequest adRequest = new AdRequest.Builder()
+//                    .build();
+//            binding.get().adView.loadAd(adRequest);
+//        } else {
+//            binding.get().adView.setVisibility(View.GONE);
+//        }
 
         psDialogMsg = new PSDialogMsg(getActivity(), false);
 
