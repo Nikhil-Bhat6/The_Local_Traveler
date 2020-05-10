@@ -82,20 +82,20 @@ public class ItemPromoteVerticalListAdapter extends DataBoundListAdapter<ItemPai
 
 
         switch (itemPaidHistory.paidStatus) {
-            case Constants.ADSPROGRESS:
-                binding.isPaidTextView.setText(R.string.paid__ads_in_progress);
-                binding.isPaidTextView.setBackgroundColor( binding.getRoot().getResources().getColor( R.color.paid_ad));
-
-                break;
-            case Constants.ADSFINISHED:
-                binding.isPaidTextView.setText(R.string.paid__ads_in_completed);
-                binding.isPaidTextView.setBackgroundColor( binding.getRoot().getResources().getColor( R.color.paid_ad_completed));
-                break;
-            case Constants.ADSNOTYETSTART:
-                binding.isPaidTextView.setText(R.string.paid__ads_is_not_yet_start);
-                binding.isPaidTextView.setBackgroundColor( binding.getRoot().getResources().getColor( R.color.paid_ad_is_not_start));
-
-                break;
+//            case Constants.ADSPROGRESS:
+//                binding.isPaidTextView.setText(R.string.paid__ads_in_progress);
+//                binding.isPaidTextView.setBackgroundColor( binding.getRoot().getResources().getColor( R.color.paid_ad));
+//
+//                break;
+//            case Constants.ADSFINISHED:
+//                binding.isPaidTextView.setText(R.string.paid__ads_in_completed);
+//                binding.isPaidTextView.setBackgroundColor( binding.getRoot().getResources().getColor( R.color.paid_ad_completed));
+//                break;
+//            case Constants.ADSNOTYETSTART:
+//                binding.isPaidTextView.setText(R.string.paid__ads_is_not_yet_start);
+//                binding.isPaidTextView.setBackgroundColor( binding.getRoot().getResources().getColor( R.color.paid_ad_is_not_start));
+//
+//                break;
             default:
                 binding.isPaidTextView.setVisibility(View.GONE);
                 break;

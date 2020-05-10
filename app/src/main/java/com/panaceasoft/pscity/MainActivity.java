@@ -526,14 +526,14 @@ public class MainActivity extends PSAppCompactActivity {
                 hideBottomNavigation();
                 break;
 
-            case R.id.nav_transaction_login:
-
-                setToolbarText(binding.toolbar, getString(R.string.menu__paid_ad_transaction));
-                navigationController.navigateToTransactions(this);
-                Utils.psLog("nav_transactions_news");
-
-                hideBottomNavigation();
-                break;
+//            case R.id.nav_transaction_login:
+//
+//                setToolbarText(binding.toolbar, getString(R.string.menu__paid_ad_transaction));
+//                navigationController.navigateToTransactions(this);
+//                Utils.psLog("nav_transactions_news");
+//
+//                hideBottomNavigation();
+//                break;
 
             case R.id.nav_favourite_news_login:
 

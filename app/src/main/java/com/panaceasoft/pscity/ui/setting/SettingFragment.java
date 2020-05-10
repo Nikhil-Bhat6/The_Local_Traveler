@@ -82,7 +82,7 @@ public class SettingFragment extends PSFragment {
         binding.get().appInfoTextView.setText(binding.get().appInfoTextView.getText().toString());
 
         binding.get().notificationSettingTextView.setOnClickListener(view -> navigationController.navigateToNotificationSettingActivity(getActivity()));
-        binding.get().changeLanguageImageView.setOnClickListener(view -> navigationController.navigateToNotificationSettingActivity(getActivity()));
+//        binding.get().changeLanguageImageView.setOnClickListener(view -> navigationController.navigateToNotificationSettingActivity(getActivity()));
         binding.get().editProfileTextView.setOnClickListener(view -> navigationController.navigateToEditProfileActivity(getActivity()));
         binding.get().editProfileImageView.setOnClickListener(view -> navigationController.navigateToEditProfileActivity(getActivity()));
 

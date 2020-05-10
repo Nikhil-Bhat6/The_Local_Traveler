@@ -155,10 +155,10 @@
                         android:icon="@drawable/baseline_heart_grey_24"
                         android:title="@string/menu__favourite_items" />
 
-                    <item
-                        android:id="@+id/nav_transaction_login"
-                        android:icon="@drawable/baseline_menu_transcation_24"
-                        android:title="@string/menu__paid_ad_transaction" />
+<!--                    <item-->
+<!--                        android:id="@+id/nav_transaction_login"-->
+<!--                        android:icon="@drawable/baseline_menu_transcation_24"-->
+<!--                        android:title="@string/menu__paid_ad_transaction" />-->
 
                     <item
                         android:id="@+id/nav_user_history_login"

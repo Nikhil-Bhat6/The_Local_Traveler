@@ -58,11 +58,11 @@
 
                 <ImageView
                     android:id="@+id/changeLanguageImageView"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
+                    android:layout_width="16dp"
+                    android:layout_height="10dp"
                     android:layout_marginEnd="8dp"
-                    android:scaleType="fitXY"
                     android:contentDescription="@string/image_default__image"
+                    android:scaleType="fitXY"
                     app:layout_constraintBottom_toBottomOf="@+id/notificationSettingTextView"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/notificationSettingTextView"

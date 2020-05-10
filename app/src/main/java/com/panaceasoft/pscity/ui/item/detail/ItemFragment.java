@@ -1379,18 +1379,18 @@ public class ItemFragment extends PSFragment {
 
     private void bindingPaidStatus(Item item) {
         switch (item.paidStatus) {
-            case Constants.ADSPROGRESS:
-                binding.get().adsCheckingTextView.setText(getString(R.string.paid__ads_in_progress));
-                binding.get().adsCheckingTextView.setBackgroundColor(getResources().getColor(R.color.paid_ad));
-                break;
-            case Constants.ADSFINISHED:
-                binding.get().adsCheckingTextView.setText(getString(R.string.paid__ads_in_completed));
-                binding.get().adsCheckingTextView.setBackgroundColor(getResources().getColor(R.color.paid_ad_completed));
-                break;
-            case Constants.ADSNOTYETSTART:
-                binding.get().adsCheckingTextView.setText(getString(R.string.paid__ads_is_not_yet_start));
-                binding.get().adsCheckingTextView.setBackgroundColor(getResources().getColor(R.color.paid_ad_is_not_start));
-                break;
+//            case Constants.ADSPROGRESS:
+//                binding.get().adsCheckingTextView.setText(getString(R.string.paid__ads_in_progress));
+//                binding.get().adsCheckingTextView.setBackgroundColor(getResources().getColor(R.color.paid_ad));
+//                break;
+//            case Constants.ADSFINISHED:
+//                binding.get().adsCheckingTextView.setText(getString(R.string.paid__ads_in_completed));
+//                binding.get().adsCheckingTextView.setBackgroundColor(getResources().getColor(R.color.paid_ad_completed));
+//                break;
+//            case Constants.ADSNOTYETSTART:
+//                binding.get().adsCheckingTextView.setText(getString(R.string.paid__ads_is_not_yet_start));
+//                binding.get().adsCheckingTextView.setBackgroundColor(getResources().getColor(R.color.paid_ad_is_not_start));
+//                break;
             default:
                 binding.get().adsCheckingTextView.setVisibility(View.GONE);
                 break;

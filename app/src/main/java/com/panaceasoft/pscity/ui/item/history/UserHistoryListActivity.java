@@ -52,7 +52,7 @@ public class UserHistoryListActivity extends PSAppCompactActivity {
 
         if(paidOrNot.equals(Constants.FLAGPAID)){
             // Toolbar
-            initToolbar(binding.toolbar, getString(R.string.profile__paid_ad));
+//            initToolbar(binding.toolbar, getString(R.string.profile__paid_ad));
 
             // setup Fragment
             setupFragment(new LoginUserPaidItemFragment());

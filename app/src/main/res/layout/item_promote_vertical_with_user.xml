@@ -148,50 +148,50 @@
                     app:layout_constraintTop_toBottomOf="@+id/cardView12"
                     tools:text="@string/item_list_title" />
 
-                <TextView
-                    android:id="@+id/startDateTitleTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="@string/paid__start_date"
-                    android:textColor="@color/md_grey_800"
-                    android:textSize="@dimen/font_body_s_size"
-                    app:font='@{"normal"}'
-                    app:layout_constraintBottom_toBottomOf="@+id/imageView38"
-                    app:layout_constraintStart_toEndOf="@+id/imageView38"
-                    app:layout_constraintTop_toTopOf="@+id/imageView38" />
+<!--                <TextView-->
+<!--                    android:id="@+id/startDateTitleTextView"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="8dp"-->
+<!--                    android:ellipsize="end"-->
+<!--                    android:maxLines="1"-->
+<!--                    android:text="@string/paid__start_date"-->
+<!--                    android:textColor="@color/md_grey_800"-->
+<!--                    android:textSize="@dimen/font_body_s_size"-->
+<!--                    app:font='@{"normal"}'-->
+<!--                    app:layout_constraintBottom_toBottomOf="@+id/imageView38"-->
+<!--                    app:layout_constraintStart_toEndOf="@+id/imageView38"-->
+<!--                    app:layout_constraintTop_toTopOf="@+id/imageView38" />-->
 
-                <TextView
-                    android:id="@+id/endDateTitleTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="@string/paid__end_date"
-                    android:textColor="@color/md_grey_800"
-                    android:textSize="@dimen/font_body_s_size"
-                    app:font='@{"normal"}'
-                    app:layout_constraintBottom_toBottomOf="@+id/imageView39"
-                    app:layout_constraintStart_toEndOf="@+id/imageView39"
-                    app:layout_constraintTop_toTopOf="@+id/imageView39" />
+<!--                <TextView-->
+<!--                    android:id="@+id/endDateTitleTextView"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="8dp"-->
+<!--                    android:ellipsize="end"-->
+<!--                    android:maxLines="1"-->
+<!--                    android:text="@string/paid__end_date"-->
+<!--                    android:textColor="@color/md_grey_800"-->
+<!--                    android:textSize="@dimen/font_body_s_size"-->
+<!--                    app:font='@{"normal"}'-->
+<!--                    app:layout_constraintBottom_toBottomOf="@+id/imageView39"-->
+<!--                    app:layout_constraintStart_toEndOf="@+id/imageView39"-->
+<!--                    app:layout_constraintTop_toTopOf="@+id/imageView39" />-->
 
-                <TextView
-                    android:id="@+id/amountTitleTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="@string/paid__amount"
-                    android:textColor="@color/md_grey_800"
-                    android:textSize="@dimen/font_body_s_size"
-                    app:font='@{"normal"}'
-                    app:layout_constraintBottom_toBottomOf="@+id/imageView40"
-                    app:layout_constraintStart_toEndOf="@+id/imageView40"
-                    app:layout_constraintTop_toTopOf="@+id/imageView40" />
+<!--                <TextView-->
+<!--                    android:id="@+id/amountTitleTextView"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="8dp"-->
+<!--                    android:ellipsize="end"-->
+<!--                    android:maxLines="1"-->
+<!--                    android:text="@string/paid__amount"-->
+<!--                    android:textColor="@color/md_grey_800"-->
+<!--                    android:textSize="@dimen/font_body_s_size"-->
+<!--                    app:font='@{"normal"}'-->
+<!--                    app:layout_constraintBottom_toBottomOf="@+id/imageView40"-->
+<!--                    app:layout_constraintStart_toEndOf="@+id/imageView40"-->
+<!--                    app:layout_constraintTop_toTopOf="@+id/imageView40" />-->
 
                 <TextView
                     android:id="@+id/startDateTextView"

@@ -126,16 +126,16 @@ public class SelectedCityFragment extends PSFragment implements DataBoundListAda
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
         inflater.inflate(R.menu.blog_menu, menu);
         super.onCreateOptionsMenu(menu, inflater);
-        MenuItem blogMenuItem = menu.findItem(R.id.action_blog);
-        blogMenuItem.setVisible(true);
+//        MenuItem blogMenuItem = menu.findItem(R.id.action_blog);
+//        blogMenuItem.setVisible(true);
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        if (item.getItemId() == R.id.action_blog) {
-            navigationController.navigateToBlogListBySelectedCity(getActivity(), selectedCityId);
-        }
+//        if (item.getItemId() == R.id.action_blog) {
+//            navigationController.navigateToBlogListBySelectedCity(getActivity(), selectedCityId);
+//        }
 
         return super.onOptionsItemSelected(item);
     }

@@ -124,7 +124,7 @@ public class LanguageFragment extends PSFragment {
                 mBuilder.setTitle(getString(R.string.language__title));
                 mBuilder.setSingleChoiceItems(adapter, -1, (dialogInterface, i) -> {
 
-                    psDialogMsg.showConfirmDialog(getString(R.string.language__language_change, languageDataList.get(i).languageName), getString(R.string.app__ok), getString(R.string.app__cancel));
+//                    psDialogMsg.showConfirmDialog(getString(R.string.language__language_change, languageDataList.get(i).languageName), getString(R.string.app__ok), getString(R.string.app__cancel));
 
                     psDialogMsg.show();
 

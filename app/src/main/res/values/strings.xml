@@ -112,7 +112,7 @@
     <string name="language__english">English</string>
     <string name="language__arabic">Arabic</string>
     <string name="language__spanish">Spanish</string>
-    <string name="language__language_change">Are you sure you want to change to %1$s?</string>
+    <string name="language__language_change">Are you sure you w ant to change to %1$s?</string>
     <string name="language__title">Language</string>
 
     <!-- Comment -->
@@ -263,7 +263,7 @@
     <string name="profile__verified">Verified</string>]
     <string name="profile__status">Status</string>
     <string name="profile__notification">Notification</string>
-    <string name="profile__paid_ad">Paid Ad</string>
+<!--    <string name="profile__paid_ad">Paid Ad</string>-->
     <string name="profile__no_paid_ad">No paid Ad</string>
 
     <!-- Edit Profile -->
@@ -339,7 +339,7 @@
     <string name="menu__item">Explorer</string>
     <string name="menu__privacy_policy">Terms And Conditions</string>
     <string name="setting__change_gdpr">Change GDPR setting</string>
-    <string name="menu__paid_ad_transaction">Paid AD Transaction</string>
+<!--    <string name="menu__paid_ad_transaction">Paid AD Transaction</string>-->
 
     <!-- Collection List -->
     <string name="collection__list_title">Collection List</string>
@@ -618,13 +618,13 @@
 
 
     <!-- PaidAd -->
-    <string name="paid__start_date">Start Date:</string>
-    <string name="paid__end_date">End Date:</string>
-    <string name="paid__amount">Amount Spend:</string>
-    <string name="paid__ads_in_progress">Ads In Progress</string>
-    <string name="paid__ads_in_completed">Ads Completed</string>
-    <string name="paid__ads_is_not_yet_start">Ads is Not Yet Start</string>
-    <string name="paid__sponsored">Sponsored</string>
+<!--    <string name="paid__start_date">Start Date:</string>-->
+<!--    <string name="paid__end_date">End Date:</string>-->
+<!--    <string name="paid__amount">Amount Spend:</string>-->
+<!--    <string name="paid__ads_in_progress">Ads In Progress</string>-->
+<!--    <string name="paid__ads_in_completed">Ads Completed</string>-->
+<!--    <string name="paid__ads_is_not_yet_start">Ads is Not Yet Start</string>-->
+<!--    <string name="paid__sponsored">Sponsored</string>-->
     <!-- END -->
 </resources>
 

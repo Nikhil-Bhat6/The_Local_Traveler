@@ -366,26 +366,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView35">
 
                 <Button
-                    android:id="@+id/meetUpButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="44dp"
-                    android:layout_marginTop="1dp"
-                    android:background="@color/md_white_1000"
-                    android:drawableStart="@drawable/baseline_inbox_black_24"
-                    android:drawablePadding="@dimen/space_12"
-                    android:enabled="false"
-                    android:gravity="start|center"
-                    android:paddingLeft="@dimen/space_16"
-                    android:paddingRight="@dimen/space_16"
-                    android:text="@string/sf__Discount"
-                    android:textAllCaps="false"
-                    android:textSize="@dimen/font_body_size"
-                    app:font='@{"normal"}'
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/mailingButton" />
-
-                <Button
                     android:id="@+id/mailingButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -421,10 +401,8 @@
                     style="@style/SwitchCompatStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
-                    android:layout_marginBottom="8dp"
-                    app:layout_constraintBottom_toBottomOf="@+id/meetUpButton"
+                    android:layout_marginTop="8dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/mailingButton" />
 
@@ -432,18 +410,16 @@
                     android:id="@+id/filter"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="16dp"
                     android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
                     android:text="@string/sf__Filter_Button"
                     android:textColor="@color/md_white_1000"
                     app:font='@{"normal"}'
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintCircleRadius="@dimen/space_16"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/meetUpButton" />
+                    app:layout_constraintStart_toStartOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -62,52 +62,52 @@
                 app:textSize='@{"font_h6_size"}' />
 
             <!--<RadioGroup-->
-            <!--android:id="@+id/radioGroup"-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginLeft="@dimen/space_16"-->
-            <!--android:layout_marginTop="24dp"-->
-            <!--android:layout_marginRight="@dimen/space_16"-->
-            <!--android:layout_marginBottom="200dp"-->
-            <!--app:layout_constraintBottom_toBottomOf="parent"-->
-            <!--app:layout_constraintEnd_toEndOf="parent"-->
-            <!--app:layout_constraintStart_toStartOf="parent"-->
-            <!--app:layout_constraintTop_toBottomOf="@+id/view">-->
+            android:id="@+id/radioGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="@dimen/space_16"
+            android:layout_marginBottom="200dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view">
 
             <!--<RadioButton-->
-            <!--android:id="@+id/englishRadioButton"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="55dp"-->
-            <!--android:checked="false"-->
-            <!--android:text="@string/language__english"-->
-            <!--android:textAlignment="viewStart"-->
-            <!--android:textColor="@color/text__primary"-->
-            <!--app:font='@{"normal"}'-->
-            <!--app:textSize='@{"font_title_size"}' />-->
+            android:id="@+id/englishRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:checked="false"
+            android:text="@string/language__english"
+            android:textAlignment="viewStart"
+            android:textColor="@color/text__primary"
+            app:font='@{"normal"}'
+            app:textSize='@{"font_title_size"}' />
 
             <!--<RadioButton-->
-            <!--android:id="@+id/arabicRadioButton"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="55dp"-->
-            <!--android:layout_weight="0.13"-->
-            <!--android:checked="false"-->
-            <!--android:text="@string/language__arabic"-->
-            <!--android:textAlignment="viewStart"-->
-            <!--android:textColor="@color/text__primary"-->
-            <!--app:font='@{"normal"}'-->
-            <!--app:textSize='@{"font_title_size"}' />-->
+            android:id="@+id/arabicRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="0.13"
+            android:checked="false"
+            android:text="@string/language__arabic"
+            android:textAlignment="viewStart"
+            android:textColor="@color/text__primary"
+            app:font='@{"normal"}'
+            app:textSize='@{"font_title_size"}' />
 
             <!--<RadioButton-->
-            <!--android:id="@+id/spanishRadioButton"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="55dp"-->
-            <!--android:layout_weight="0.13"-->
-            <!--android:checked="false"-->
-            <!--android:text="@string/language__spanish"-->
-            <!--android:textAlignment="viewStart"-->
-            <!--android:textColor="@color/text__primary"-->
-            <!--app:font='@{"normal"}'-->
-            <!--app:textSize='@{"font_title_size"}' />-->
+            android:id="@+id/spanishRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="0.13"
+            android:checked="false"
+            android:text="@string/language__spanish"
+            android:textAlignment="viewStart"
+            android:textColor="@color/text__primary"
+            app:font='@{"normal"}'
+            app:textSize='@{"font_title_size"}' />
 
             <!--</RadioGroup>-->
 
@@ -151,7 +151,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
-                    <ImageView
+<!--                    <ImageView-->
                         android:id="@+id/imageView7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
