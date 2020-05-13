@@ -16,7 +16,7 @@
     <string name="admob_banner_ads_key" translatable="false">ca-app-pub-8907881762519005/9824832324</string>
     <!--<string name="admob_banner_ads_key" translatable="false">ca-app-pub-0000000000000000/0000000000</string>-->
 
-    <string name="google_map_api_key" translatable="false">AIzaSyCkBR-5jXkwZplhBgPLyKJBitIEKChBY2s</string>
+    <string name="google_map_api_key" translatable="false">AIzaSyAl0EO1puEM6Bjtf85tSFILCFKj7THi17M</string>
     <!--<string name="google_map_api_key" translatable="false">AI000000000000000000_000000000000000000</string>-->
 
     <string name="adview_publisher_key" translatable="false">pub-8907881762519005</string>
