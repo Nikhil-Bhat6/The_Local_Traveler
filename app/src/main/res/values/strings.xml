@@ -193,12 +193,12 @@
     <!--Special_Filtering-->
     <string name="sf__notSet">Not Set</string>
     <string name="sf__notSet_zg">Not Set</string>
-    <string name="sf__ByItemType">Set Item Name</string>
+    <string name="sf__ByItemType">Set Location Name</string>
     <string name="sf__ByPrice">Set Price</string>
     <string name="sf__LowestPrice">Lowest Price</string>
     <string name="sf__HighestPrice">Highest Price</string>
     <string name="sf__AdvanceFiltering">Advanced Filtering</string>
-    <string name="sf__Feature">Feature Items</string>
+    <string name="sf__Feature">Feature Location</string>
     <string name="sf__Discount">Discount Items</string>
     <string name="sf__Filter_Button">Filter</string>
     <string name="typefilter">Filtered By Product type</string>
@@ -220,7 +220,7 @@
     <string name="error_message__no_internet">No internet connection.</string>
     <string name="error_message__email_exists">Email Already Exists</string>
     <string name="error_message__image_cannot_upload">Image cannot be Uploaded</string>
-    <string name="error_message__item_cannot_upload">Item cannot be Uploaded</string>
+    <string name="error_message__item_cannot_upload">Location cannot be Uploaded</string>
     <string name="error_message__code_not_verify">Your code is not verified.</string>
     <string name="error_message__to_check_agreement">You need to agree to privacy policy.</string>
 
@@ -303,7 +303,7 @@
     <string name="menu__profile">Profile</string>
     <string name="menu__like">Like</string>
     <string name="menu__favourite_items">Favourite</string>
-    <string name="menu__uploaded_items">Uploaded Items</string>
+    <string name="menu__uploaded_items">Uploaded Location</string>
     <string name="menu__transaction">Transaction</string>
     <string name="menu__user_history">User History</string>
     <string name="menu__logout">Logout</string>
@@ -372,9 +372,9 @@
     <string name="item_detail__help_other">Help other find the best place to enjoy</string>
     <string name="item_detail__install_messenger_app">Please install Messenger App.</string>
     <string name="item_detail__install_whatsapp_app">Please install WhatsApp App.</string>
-    <string name="item_detail__promote_title">Promote Your Item</string>
-    <string name="item_detail__promote_sub_title">Promote your item and reach more buyers</string>
-    <string name="item_detail__promote_description">Let more people discover your item and display your item at the top of the lists.</string>
+    <string name="item_detail__promote_title">Promote Your Location</string>
+    <string name="item_detail__promote_sub_title">Promote your Location and reach more buyers</string>
+    <string name="item_detail__promote_description">Let more people discover your Location and display your Location at the top of the lists.</string>
     <string name="item_detail__promote">Promote</string>
     <!--Discount-->
     <string name="discount__rating5">%1$s rating ( %2$s )</string>
@@ -426,7 +426,7 @@
     <string name="city__sure_to_exit">Are you sure you want to exit from this city?</string>
 
     <!--item list-->
-    <string name="item_list_title">Item List</string>
+    <string name="item_list_title">Location List</string>
 
     <!--force update-->
     <string name="force_update_true">Update is available</string>
@@ -496,7 +496,7 @@
     <string name="item_upload__search_name">Search Tags/Keyword</string>
     <string name="item_upload__description">Description</string>
     <string name="item_upload__is_published">is Published</string>
-    <string name="item_upload__item_images">Item Images</string>
+    <string name="item_upload__item_images">Location Images</string>
     <string name="item_upload__view_all">View All ></string>
     <string name="item_upload__btn_attributes">SPECIFICATIONS</string>
     <string name="item_upload__btn_upload_image">UPLOAD IMAGE</string>
@@ -506,8 +506,8 @@
     <string name="item_upload__image_error_message">No Image Uploaded Yet</string>
     <string name="item_upload__category_name">Type of Location</string>
     <string name="item_upload__sub_category_name">Sub Category Name</string>
-    <string name="item_upload__item_highlight_infomation">Item HighLight Information</string>
-    <string name="item_upload__item_description">Item Description</string>
+    <string name="item_upload__item_highlight_infomation">Location HighLight Information</string>
+    <string name="item_upload__item_description">Location Description</string>
     <string name="item_upload__is_feature">is Featured</string>
     <string name="item_upload__is_promotion">is Promotion</string>
     <string name="item_upload__open_time">Open time:</string>
@@ -516,7 +516,7 @@
     <string name="item_upload__time_remark">Time Remark</string>
     <string name="item_upload__phone_one">Phone 1</string>
     <string name="item_upload__phone_two">Phone 2</string>
-    <string name="item_upload__phone_three">Phone 3</string>
+    <string name="item_upload__phone_three">Phone</string>
     <string name="item_upload__email">Email</string>
     <string name="item_upload__address">Address</string>
     <string name="item_upload__facebook">Facebook</string>
@@ -531,7 +531,7 @@
     <string name="item_upload__terms">Terms and Conditions</string>
     <string name="item_upload__cancelation_policy">Cancellation Policy</string>
     <string name="item_upload__additional_info">Additional Info</string>
-    <string name="item_upload__information">Item Information</string>
+    <string name="item_upload__information">Location Information</string>
     <string name="item_upload__schedule">Schedule</string>
     <string name="item_upload__contact">Contact</string>
     <string name="item_upload__social_information">Social Information</string>
@@ -539,22 +539,22 @@
     <string name="item_upload__pin_location">Pin Location</string>
     <string name="item_upload__latitude">Latitude</string>
     <string name="item_upload__longitude">Longitude</string>
-    <string name="item_upload__item_saved">Item successfully saved</string>
-    <string name="item_upload__item_name_required">Item Name is required.</string>
-    <string name="item_upload__item_category_required">Item Category is required.</string>
-    <string name="item_upload__already_saved">Item Already Saved.</string>
+    <string name="item_upload__item_saved">Location successfully saved</string>
+    <string name="item_upload__item_name_required">Location Name is required.</string>
+    <string name="item_upload__item_category_required">Location Category is required.</string>
+    <string name="item_upload__already_saved">Location Already Saved.</string>
     <string name="item_upload__status">Status</string>
     <string name="item_upload__pending">Pending</string>
     <string name="item_upload__reject">Reject</string>
-    <string name="item_upload__item_name_length">Item Name must be greater than 4</string>
-    <string name="item_upload__item_sub_category_required">Item Sub Category is required.</string>
+    <string name="item_upload__item_name_length">Location Name must be greater than 4</string>
+    <string name="item_upload__item_sub_category_required">Location Sub Category is required.</string>
 
 
     <!-- Image Upload -->
     <string name="image_upload__choose_photo">Choose photo</string>
     <string name="image_upload__upload">UPLOAD</string>
-    <string name="message__image_desc">Item description</string>
-    <string name="image_upload__title_item">Item Image Upload</string>
+    <string name="message__image_desc">Location description</string>
+    <string name="image_upload__title_item">Location Image Upload</string>
     <string name="error_message__img_not_selected">No Image Selected</string>
     <string name="message__image_upload_complete">Image Uploaded Successfully</string>
 
