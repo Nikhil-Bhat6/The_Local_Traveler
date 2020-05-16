@@ -24,9 +24,9 @@ public class Config {
      * API URL
      * Change your backend url
      */
-    public static final String APP_API_URL = "http://localtraveller.000webhostapp.com/ps-city-admin/index.php/";
-    public static final String APP_IMAGES_URL = "http://localtraveller.000webhostapp.com/ps-city-admin/uploads/";
-    public static final String APP_IMAGES_THUMB_URL = "http://localtraveller.000webhostapp.com/ps-city-admin/uploads/thumbnail/";
+    public static final String APP_API_URL = "http://www.panacea-soft.com/ps-city-admin/index.php/";
+    public static final String APP_IMAGES_URL = "http://www.panacea-soft.com/ps-city-admin/uploads/";
+    public static final String APP_IMAGES_THUMB_URL = "http://www.panacea-soft.com/ps-city-admin/uploads/thumbnail/";
 
     /**
      * API Key
